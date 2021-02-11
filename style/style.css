@@ -1,0 +1,36 @@
+body{
+    overflow-x: hidden;
+    padding: 0px;
+    background-color: rgb(44, 42, 42);
+    
+}
+h1, h2,h3,h4,h5{
+    color: white;
+    font-weight: 600;
+}
+p,ul{
+    color:#d6d6d6
+}
+.button{
+    padding: 10px 20px;
+    color:#262626;
+    background-color: thistle;
+    font-style: none;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.button:hover{
+    padding: 10px 20px;
+    background-color:#262626;
+    color: thistle;
+    font-style: none;
+    text-decoration: none;
+    border-radius: 7px;
+
+    transition: all .2s ease-in-out
+}
+
+.cover{
+    width: 500px;
+}
