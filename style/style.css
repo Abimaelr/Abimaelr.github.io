@@ -1,36 +1,69 @@
-body{
-    overflow-x: hidden;
+*{
     padding: 0px;
-    background-color: rgb(44, 42, 42);
-    
+    margin: 0px;
+}
+body{
+    font-family: "MontSerrat", 'Courier New', Courier, monospace;
+    overflow-x: hidden;
+    padding: 0px; 
 }
 h1, h2,h3,h4,h5{
-    color: white;
-    font-weight: 600;
+    color: black;
+    font-weight: 800;
 }
 p,ul{
-    color:#d6d6d6
+    color:black;
 }
 .button{
     padding: 10px 20px;
     color:#262626;
-    background-color: thistle;
+    background-color: black;
     font-style: none;
     text-decoration: none;
     border-radius: 7px;
+    margin: 10px;
+}
+.header{
+    background-image: url(/img/Abimael-Photo.jpg);
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    background-size: 160px;
+    padding: 10px;
+    min-height: 160px;
+    font-family: 'Monserrat';
+    display: flex;
+    justify-content:flex-end;
+    
+}
+.header h1:nth-child(2){
+    font-weight: 100;
+    font-size: 20px;
+}
+.header-tittle{
+   text-align: right;
+   margin: auto 0px;
+   width: 50%;
 }
 
-.button:hover{
-    padding: 10px 20px;
-    background-color:#262626;
-    color: thistle;
-    font-style: none;
-    text-decoration: none;
-    border-radius: 7px;
-
-    transition: all .2s ease-in-out
+.content{
+    margin-bottom: 10px;
+    padding: 20px;
 }
-
-.cover{
-    width: 500px;
+.content-tittle{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.content-paragraph{
+    text-align: justify;
+}
+.content-skills{
+    padding: 15px;
+}
+.footer{
+    text-align: center;
+}
+.footer-buttons{
+    display: flex;
+    padding: 30px;
+    margin: 0px auto;
 }
