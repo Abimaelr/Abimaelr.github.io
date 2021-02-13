@@ -16,12 +16,18 @@ p,ul{
 }
 .button{
     padding: 10px 20px;
-    color:#262626;
+    color:white;
     background-color: black;
     font-style: none;
     text-decoration: none;
     border-radius: 7px;
     margin: 10px;
+     transition: 0.3s;
+}
+.button:hover{
+    color:black;
+    background-color: white;
+    transition: 0.3s;
 }
 .header{
     background-image: url(/img/Abimael-Photo.jpg);
@@ -46,8 +52,9 @@ p,ul{
 }
 
 .content{
+    padding: 20px 10%;
     margin-bottom: 10px;
-    padding: 20px;
+    margin: auto;
 }
 .content-tittle{
     text-align: center;
@@ -59,11 +66,18 @@ p,ul{
 .content-skills{
     padding: 15px;
 }
+.content.footer{
+ background-color: #f5f5f5;;
+}
 .footer{
     text-align: center;
+   
 }
 .footer-buttons{
-    display: flex;
+    display:flex;
     padding: 30px;
-    margin: 0px auto;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+  
 }
