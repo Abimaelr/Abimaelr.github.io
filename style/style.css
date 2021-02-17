@@ -1,3 +1,70 @@
 *{
     padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    font-family: 'Montserrat';
+}
+a{
+    text-decoration: none;
+}
+.cover{
+
+    display: flex;
+    flex-direction: column;
+    background-image: url(/img/cover.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+
+    height: 300px;
+}
+.cover nav{
+    padding-top: 30px;
+}
+.cover ul{
+    text-align: center;
+}
+.cover li{
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+}
+
+
+.tittle{
+    margin:auto;
+    color:rgb(206, 205, 197);
+    font-size: 40px;
+    background-color:rgba(0,0,0,0.8);
+    text-align: center;
+}
+
+.container h3{
+    text-align: center;
+    margin: 40px;
+}
+#academia{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+.card{
+    width: 320px;
+    margin: 30px;
+}
+.card header{
+    width: 100%;
+}
+.card p{
+    text-align: justify;
+}
+
+img{
+    width: 100px;
 }
