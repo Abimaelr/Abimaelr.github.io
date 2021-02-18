@@ -9,6 +9,9 @@ body{
 a{
     text-decoration: none;
 }
+h2{
+    text-align: center;
+}
 .cover{
 
     display: flex;
@@ -55,16 +58,60 @@ a{
     align-items: center; 
 }
 .card{
-    width: 320px;
+    width: 420px;
     margin: 30px;
 }
 .card header{
+    margin:10px;
     width: 100%;
 }
 .card p{
+    margin:5px;
     text-align: justify;
 }
+.card img{
+    width: 120px;
+}
 
-img{
-    width: 100px;
+#experiences{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+
+.ghost{
+    background-color: blanchedalmond;
+    padding:15px;
+    border-radius: 10px;
+}
+.ghost-content{
+    display: none;
+    position: absolute;
+    width: 400px;
+    
+}
+
+.ghost .ghost-content:hover{
+    display: block;
+    background-color: blue;
+}
+
+#skills{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.skills-image{
+    background-image: url(/img/coding.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 50%;
+}
+.lista{
+    justify-self: center;
+    align-self: center;
+    width: 50%;
 }
