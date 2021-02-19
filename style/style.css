@@ -21,20 +21,53 @@ h2{
     background-position-x: center;
     background-position-y: center;
     background-repeat: no-repeat;
-    margin-bottom: 10px;
-
-    height: 300px;
+    height: 95vh;
 }
-.cover nav{
-    padding-top: 30px;
+.nav-bar{
+    top: 0;
+    padding: 10px;
+    position: sticky;
+    background-color:rgba(0,0,0,0.8);
 }
-.cover ul{
+.nav-bar ul{
     text-align: center;
+
+
 }
-.cover li{
+.nav-bar li{
     display: inline;
     list-style-type: none;
     padding: 10px;
+    
+}
+.nav-bar li a{
+        color: white;
+}
+.contanier h4{
+  
+}
+.presentation{
+   display: flex;
+   margin: auto;
+   flex-direction: row;
+   flex-wrap: wrap;
+
+   justify-content: center;
+   align-items: center;
+
+}
+.thumb{
+    height: 180px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 50%;
+    margin: 50px;
+}
+
+.description{
+    width: 420px;
+    text-align: justify;
+    font-weight: 300;
 }
 
 
@@ -140,6 +173,8 @@ h2{
     justify-self: center;
     align-self: center;
     width: 50%;
+    list-style:none;
 }
+
 
 
