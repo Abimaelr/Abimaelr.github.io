@@ -210,26 +210,17 @@ footer img{
     border-radius: 50%;
 
 }
-
-.menu{
+.dropmenu{
     display: none;
 
 }
-.dropmenu{
-    font-size: 50px;
-    color: #f5f5f5;
-}
 
-.nav-bar:hover .menu{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 300px; 
-
-}
 
 @media only screen and (max-width: 720px){
-
+    .cover{
+        height: 100vh;
+        transition: 2s;
+    }
     #contact{
         flex-direction: column;
     }
@@ -238,6 +229,27 @@ footer img{
         flex-direction: column-reverse;
         align-items: center;
     }
+    .menu{
+    display: none;
+    transition: 2s;
+
+    }
+.dropmenu{
+    display: block;
+    font-size: 50px;
+    color: #f5f5f5;
+    
+
+}
+
+
+.nav-bar:hover .menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px; 
+    
+}
 }
 
 
