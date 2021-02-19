@@ -7,32 +7,48 @@
     <title>Abimael R|Full-stack Developer</title>
 
   
-
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style/style.css">
+<link rel="stylesheet" href="style/style.css">
 
 </head>
 <body>
 
-    <header class="cover">
+    <header id="home" class="cover">
+        <div class="box">
+            
+            <a href="https://github.com/Abimaelr" target="blank">
+                    <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_S6vWEd.json" background="transparent" speed="2" style="width: 50px;" loop hover></lottie-player>
+            </a>
+            <a href="mailto:abimaelr.albu@gmail.com">
+            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_4tvpr5xz.json"  background="transparent" speed="2" style="width: 80px;" loop hover></lottie-player>
+            </a>
+          
+            <a href="https://www.linkedin.com/in/abimael-albuquerque-130ab611a/" target="_blank" rel="noopener noreferrer">
+                <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_0Cm1Y2.json" background="transparent" speed="2"
+                    style="width: 50px;" loop hover></lottie-player>
+            </a>
+        </div>
+
         <div class="tittle"><h2>Fullstack Developer</h2></div>
      
     </header> 
 
     <nav class="nav-bar">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Quem sou eu?</a></li>
-            <li><a href="#">Academia</a></li>
-            <li><a href="#">Experiências</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Fale comigo</a></li>
+        <i class="bi bi-chevron-compact-down dropmenu"></i>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#me">Quem sou eu?</a></li>
+            <li><a href="#academia">Academia</a></li>
+            <li><a href="#exp">Experiências</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Fale comigo</a></li>
         </ul>
     </nav>
-    <div class="container">
-        <h3>Abimael Rocha de Albuquerque</h3>
+    <div id="me" class="container">
+        <h3>Abimael R. Albuquerque</h3>
         <div class="presentation">
             <img class="thumb" src="/img/Abimael-Photo.jpg" alt="">
             <div class="description">
@@ -41,7 +57,7 @@
         </div>
     </div>
  
-    <div class="container">
+    <div id="academia" class="container">
         <h3>Insituições de Ensino</h3>
         <section id="academia"> 
             <div class="card">
@@ -88,7 +104,7 @@
         </section>
     </div>
 
-    <div class="container exp">
+    <div id="exp" class="container exp">
         <h3>Experiências</h3>
         <div class="experiences">
             <div class="dropdown">
@@ -112,9 +128,11 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    
+    <div id="skills" class="container">
         <h3>Competências e Habilidades</h3>
         <section id="skills">
+            
             <div class="lista">
 
             
@@ -132,25 +150,28 @@
                     <li>Algoritmo e estrutura de dados</li>
                 </ul>
             </div>
-                <div class="skills-image">
-                </div>
+                <!--div class="skills-image">
+                </div-->
                 
         </section>
     </div>
 
-    <footer>
-        <div>
+    <footer id="contact">
+        <div class="logo">
+            <img src="/img/logo.png" alt="">
             <h5>Abimael R. Albuquerque</h5>
+
+        </div>
+         
             <div>
-                <h6>Siga-me e entre em contato</h6>
+                <h5>Siga-me e entre em contato</h5>
                 <ul>
-                    <li><a href="">LinkedIn</a></li>
-                    <li><a href="">GitHub</a></li>
-                    <li><a href="">E-mail</a></li>
+                    <li><a href="https://www.linkedin.com/in/abimael-albuquerque-130ab611a/" target="blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/Abimaelr" target="blank">GitHub</a></li>
+                    <li><a href="mailto:abimaelr.albu@gmail.com">E-mail</a></li>
                 </ul>
             </div>
 
-        </div>
     </footer>
     
 </body>
