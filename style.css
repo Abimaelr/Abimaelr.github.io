@@ -76,3 +76,31 @@
     color:white;
 
 }
+
+.about {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 70%;
+    margin: auto;
+}
+.early-life
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.early-life h2 {
+    width: 100%;
+    flex-grow: 1;
+    text-align: center;
+}
+.early-life p {
+    max-width: 700px;
+}
+.early-life img {
+    margin: 40px auto;
+    width: 200px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 10px rgb(230, 230, 230);
+}
