@@ -6,18 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abimael R|Full-stack Developer</title>
 
-    <link rel="stylesheet" href="/bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css">
-    <script src="/bootstrap-5.0.0-beta2-dist/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="libs/bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css">
+    <script src="libs/bootstrap-5.0.0-beta2-dist/js/bootstrap.min.js"></script>
 
+		<script src="/libs/fontawesome-free-5.15.2-web/js/all.js"></script>
 
 
 </head>
 	<body>
-		<nav>
+		<nav class="navi">
 			<div class="logo">
 				<img src="/img/Abimael Rocha.png" alt="Logotipo">
 			</div>
-			<div>
+			<div class="links">
 				<a href="">Home</a>
 				<a href="">Sobre mim</a>
 				<a href="">Galeria de Projetos</a>
@@ -25,7 +27,10 @@
 			</div>
 		</nav>
 		<div class="hero">
-			<div class="btn-hero">Saiba Mais</div>
+			<div class="mask">
+				<div class="btn-hero">Saiba Mais</div>
+			</div>
+			
 		</div>
 
 		<section class="about">
@@ -54,14 +59,25 @@
 					<h3 class="card-tittle">Pixels Art</h3>
 					<section>
 						<div class='card-description'>
-							<i/>
+							<i class="fas fa-tools"></i>
 							<h5>Ferramentas</h5>
 						</div>
 					</section>
 				</div>
-
 			</div>
 		</section>
+
+		<section class="newsLetter">
+				<form >
+					<input type="text">
+					<button type="submit" class="btn-form">Cadastrar!</button>
+				</form>
+		</section>
+		<hr>
+		<footer>
+			<h5>Feito com <i class="fas fa-heart"></i> por <a href="http://">Abimael R. Albuquerque</a></h5>
+			<p>2021</p>
+		</footer>
 
 	</body>
 </html>
