@@ -6,6 +6,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .navi {
@@ -17,7 +18,7 @@
     padding: 0 30px;
 
     background-color:  #213659;
-    height: 50px;
+    height: 10vh;
 
     box-shadow: 1px 1px 10px rgb(220, 220, 220);
 }
@@ -50,7 +51,7 @@
 
     transition: 0s;
 
-    height: 100vh;
+    height: 90vh;
 }
 
 .mask {
@@ -169,10 +170,64 @@
     border-radius: 5px;
     
 }
+
 .card-image {
     height: 100px;
     background-image: url(/projects/sd-010-b-project-pixels-art/icon.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.newsLetter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: #4773BF;
+}
+
+.newsLetter h2 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.newsLetter form {
+    display: flex;
+}
+
+#btn-sub {
+    color: blanchedalmond;
+    background-color: #213659;
+    margin: 0 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    color: white;
+    
+    justify-content: space-around;
+
+    padding: 5px;
+    background-color: #222;
+}
+footer a{
+    text-decoration:none;
+    color: white;
+    font-weight: 500;
+}
+footer h5 {
+    margin: 0px;
+
+}
+footer h5 i{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 0px;
+    margin: 0;
+    color: red;
 }
