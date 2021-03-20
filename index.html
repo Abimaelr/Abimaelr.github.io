@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="libs/bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css">
     <script src="libs/bootstrap-5.0.0-beta2-dist/js/bootstrap.min.js"></script>
 
-		<script src="/libs/fontawesome-free-5.15.2-web/js/all.js"></script>
-		<link rel="stylesheet" href="/libs/fontawesome-free-5.15.2-web/css/all.css">
+	<script src="/libs/fontawesome-free-5.15.2-web/js/all.js"></script>
+	<link rel="stylesheet" href="/libs/fontawesome-free-5.15.2-web/css/all.css">
 
+	<script  src="./require.js"></script>
 </head>
 	<body>
 		<nav class="navi">
@@ -20,20 +21,20 @@
 				<img src="/img/Abimael Rocha.png" alt="Logotipo">
 			</div>
 			<div class="links">
-				<a href="">Home</a>
-				<a href="">Sobre mim</a>
-				<a href="">Galeria de Projetos</a>
-				<a href="">NewsLetter</a>
+				<a href="#home">Home</a>
+				<a href="#about">Sobre mim</a>
+				<a href="#projects">Galeria de Projetos</a>
+				<a href="#news">NewsLetter</a>
 			</div>
 		</nav>
-		<div class="hero">
+		<div id="home" class="hero">
 			<div class="mask">
 				<h2>Abimael Rocha|Front-End</h2>
 				<div class="btn-hero">Saiba Mais</div>
 			</div>
 		</div>
 
-		<section class="about">
+		<section id="about" class="about">
 			<article>
 				<div class="early-life">
 					<h2>Sobre</h2>
@@ -69,13 +70,12 @@
 			</article>
 		</section>
 
-
-		<section class="project-gallery">
+		<section id="projects" class="project-gallery">
 			<h2>Galeria de Projetos</h2>
 			<div class="gallery">
-				<a>
+				<a href="/projects/sd-010-b-project-pixels-art/index.html">
 					<div class="card-project">
-						<div class="card-image"></div>
+						<div class="card-image" style="background-image: url(/projects/sd-010-b-project-pixels-art/icon.png);"></div>
 						<h3 class="card-tittle">Pixels Art</h3>
 						<section>
 							<div class='card-description'>
@@ -86,10 +86,10 @@
 						</section>
 					</div>
 				</a>
-				<a>
+				<a href="/projects/sd-010-b-project-todo-list/">
 					<div class="card-project">
-						<div class="card-image"></div>
-						<h3 class="card-tittle">Pixels Art</h3>
+						<div class="card-image" style="background-image: url(/projects/sd-010-b-project-todo-list/icon.png);"></div>
+						<h3 class="card-tittle">To-Do List</h3>
 						<section>
 							<div class='card-description'>
 								<i class="fab fa-html5"></i>
@@ -102,7 +102,7 @@
 			</div>
 		</section>
 
-		<section class="newsLetter">
+		<section id='news' class="newsLetter">
 			<h2>Inscreva-se</h2>
 			<form action="">
 				<div class="form-group">
@@ -115,7 +115,11 @@
 		<footer>
 			<h5>Feito com <i style="color: red" class="fas fa-heart"></i> por </h5>
 			<a href="http://">Abimael R. Albuquerque </a>
-			
+			<div>
+				<i class="fab fa-linkedin"></i>
+				<i class="fab fa-github"></i>
+				<i class="fab fa-telegram-plane"></i>
+			</div>
 		</footer>
 
 	</body>
