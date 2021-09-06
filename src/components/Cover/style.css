@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@font-face {
+  font-family: Horizon;
+  src: url(./Horizon-Outlinetwo.otf);
+}
+
+#aside {
+  background-image: url("./img/photo.png");
+  background-color: #151515;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#aside #name {
+  margin: auto 40px;
+  color: white;
+}
+
+#aside #name h1 {
+  font-family: 'Horizon';
+  letter-spacing: 2px;
+}
+
+#aside #name span {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: orange;
+}
+
+#aside #name h2, #aside #name h3 {
+  font-family: 'Roboto' sans-serif;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
