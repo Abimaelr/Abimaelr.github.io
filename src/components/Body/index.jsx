@@ -95,8 +95,11 @@ function Body() {
                             </section>
                         </Fade>
                         <section>
-                        
-
+                            <div className="links">
+                                <a target="_blank" href="https://www.linkedin.com/in/abimaelrocha/">Linkedin</a>
+                                <a target="_blank" href="https://github.com/Abimaelr">Github</a>
+                                <a target="_blank" href="mailto:abimaelr.albu@gmail.com">Email</a>
+                            </div>
                         </section>
                     </div>
 

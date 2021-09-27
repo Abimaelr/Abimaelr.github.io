@@ -128,4 +128,8 @@ section a {
 .formation p {
   color: rgba(255, 255, 255, 0.3);
 }
+
+.links a {
+  margin: 10px;
+}
 /*# sourceMappingURL=style.css.map */
